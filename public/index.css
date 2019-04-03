@@ -1,11 +1,42 @@
-/* 
+/*
 请把与index.html页面相关的css代码写在这里
 同时删除该注释
 */
 
 /* #message只是一个示例，可以删除 */
-#message {
-	height: 30px;
-	line-height: 30px;
+
+.item{
+	display: inline-block;
+	height: 500px;
+	width: 350px;
 	border: 1px solid red;
 }
+
+.number{
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	border: 1px solid red;
+}
+
+.number.one{
+	position: relative;
+	left: 90px;
+}
+
+.number.two{
+	position: relative;
+	left: 400px;
+}
+
+.number.three{
+	position: relative;
+	left: 650px;
+}
+
+.number.four{
+	position: relative;
+	left: 925px;
+}
+
+
